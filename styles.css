@@ -1,0 +1,73 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #000; /* Fondo negro */
+    color: #fff; /* Texto blanco */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1a1a1a; /* Fondo del encabezado */
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: #ff0000; /* Enlaces en rojo */
+    text-decoration: none;
+}
+
+.card {
+    background-color: #1a1a1a; /* Fondo de la tarjeta */
+    border: 2px solid #ff0000; /* Borde rojo */
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card-vehicle {
+    width: 300px; /* Ancho fijo para cada tarjeta de vehículo */
+    margin: 10px;
+    border-radius: 10px;
+    border: 2px solid #ff0000; /* Borde rojo */
+    padding: 10px;
+}
+
+.card-vehicle img {
+    width: 100%; /* Ancho completo para la imagen */
+    height: 150px; /* Altura fija para la imagen */
+    object-fit: cover; /* Mantiene la proporción de la imagen */
+    border-radius: 10px 10px 0 0; /* Redondea las esquinas superiores */
+}
+
+.card-vehicle h3 {
+    margin-top: 10px; /* Espaciado entre la imagen y el título */
+}
+
+.card-vehicle p {
+    font-size: 14px; /* Tamaño de fuente para la descripción */
+    color: #ccc; /* Color de texto para la descripción */
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1a1a1a; /* Fondo del pie de página */
+}
